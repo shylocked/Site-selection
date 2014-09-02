@@ -92,6 +92,9 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+body {
+    background-color: #f2f1e9;
+}
 
 .header {
     background-position: 50% 0px;
@@ -125,15 +128,95 @@ h2 {
     height: 88px;
 }
 
+.main {
+    margin-top: 90px;
+}
 
+.post {
+    position: relative;
+    margin-bottom: 30px;
+    box-shadow: 0 0 20px rgba(50,50,50,.1);
+}
 
+.post-featured-image .thumbnail {
+    padding: 12px;
+    border-radius: 0px;
+    border: none;
+}
 
+.post-header {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    background-color: #fff;
+    opacity: .95;
+    text-align: center;
+}
 
+.post-header h2 {
+    margin: 0;
+    padding-top: 0.1em;
+    padding-bottom: 0.1em;
+    font-size: 28px;
+}
 
+.post-header h2 a {
+    color: #7a7a7a;
+}
 
+.post-header h2 a:hover {
+    color: #3f3f3f;
+}
 
+.pagination {
+    display: block;
+    position: relative;
+    text-align: center;
+    width: 100%; 
+    color: #666;
+    font-size: 14px;
+}
 
+.pagination .page-number {
+    color: #39414a;
+}
 
+.pagination a.older-posts{
+    right: 10px;
+}
+
+.pagination a {
+    border: 1px solid #39414a;
+    position: absolute;
+    top: -10px;
+    padding: 10px;
+    color: #39414a;
+    white-space: nowrap;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+.pagination a:hover {
+    border: 1px solid #5d5a5b;
+    background-color: #5d5a5b;
+    color: #fff;
+}
+
+footer {
+    margin-top: 46px;
+    padding-top: 25px;
+    padding-bottom: 14px;
+    background-color: #464445;
+    color: #fff;
+}
+
+footer a {
+    color: #b4b3b4;
+}
+
+footer a:hover {
+    color: #fff;
+}
 
 
 
