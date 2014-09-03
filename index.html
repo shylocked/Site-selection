@@ -18,7 +18,7 @@
         <meta name="HandheldFriendly" content="True">
         <meta name="MobileOptimzed" content="320">
 
-        <!-- css -->
+        <!-- css(fontawasome 不支持IE7) -->
         <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.2.0/css/bootstrap.min.css">
         <link rel="stylesheet" href="http://cdn.bootcss.com/font-awesome/4.1.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="normalize.css">
@@ -46,7 +46,7 @@
                                     <a href="http://expo.bootcss.com">Bootstrap</a>
                                 </h1>
                             </div>
-                            <h2 class="text-center">优站精选</h2>
+                            <h2 class="text-center"><span class="glyphicon glyphicon-play"></span>优站精选<i class="iconfont">&#xf0001</i></h2>
                         </div>
                     </div>
                 </div>
@@ -59,6 +59,11 @@
                     <div class="row">
                         <div class="col-xs-12 col-md-6 col-lg-6">
                             <article class="post">
+                                <header class="post-icon">
+                                    <a href="http://www.ghostchina.com/" target="_blank">
+                                        <i class="fa fa-external-link-square"></i>
+                                    </a>
+                                </header>
                                 <section class="post-featured-image">
                                     <a class="thumbnail" href="http://www.ghostchina.com/" target="_blank">
                                         <img src="images/1.jpg" width="800" height="600" alt="Ghost中文网" style="display=block">
@@ -212,6 +217,15 @@
                         <div class="submit">
                             <p class="text-center">如果你的网站基于Bootstrap构建、并且用心的设计，那就提交到 <a href="mailto:admin@bootcss.com">admin@bootcss.com</a> 在这里展示吧！</p>
                             <p class="text-center">请注明“Bootstrap网站作品提交 -- 你的网址”</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="subscribe">
+                            <button type="button" class="btn btn-default btn-sm">
+                                <span class="glyphicon glyphicon-thumbs-up"></span> Like
+                            </button>
                         </div>
                     </div>
                 </div>
